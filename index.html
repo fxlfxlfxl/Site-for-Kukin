@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d42d2d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 200px 1fr 200px;
+            grid-gap: 10px;
+            padding: 10px;
+        }
+        main {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        aside {
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        footer {
+            background-color: #d42d2d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #d42d2d;
+        }
+        nav ul li a:hover {
+            color: #d42d2d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на сайт</h1>
+    </header>
+
+    <div class="container">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="about.html">Об авторе</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <h2>О сайте</h2>
+            <p>Этот сайт содержит краткую информацию об авторе, а также контактные данные. Вы можете воспользоваться меню для перехода по разделам.</p>
+        </main>
+
+        <aside>
+            <h3>Новости</h3>
+            <p>Здесь можно полезную информацию.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>© 2024 Фу Синьлинь. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
